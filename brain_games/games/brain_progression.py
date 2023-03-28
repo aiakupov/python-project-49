@@ -18,7 +18,7 @@ def body(user_name):
         condition = list_values[hidden_index]
         list_values[hidden_index] = '..'
 
-        print('Question: ', *list_values)
+        print('Question:', *list_values)
         answer = prompt.integer('Your answer: ')
         check_condition(int(condition), int(answer), user_name)
 
