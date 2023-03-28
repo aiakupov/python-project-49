@@ -17,7 +17,9 @@ def check_condition(condition, answer, user_name):
         print('Correct!')
         return True
     else:
-        print(f"'{answer}' is wrong answer ;(. Correct answer was '{condition}'.")
+        print(
+            f"'{answer}' is wrong answer ;(. Correct answer was '{condition}'."
+        )
         fail(user_name)
         return False
 

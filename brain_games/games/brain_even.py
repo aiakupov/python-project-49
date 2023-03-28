@@ -1,16 +1,8 @@
 #!/usr/bin/env python3
 import random
-from brain_games.scripts.brain_models import *
-
-
-def greet():
-    print('Welcome to the Brain Games!')
-
-
-def welcome_user():
-    name = prompt.string('May I have your name? ')
-    print(f'Hello, {name}!')
-    return name
+import prompt
+from brain_games.scripts.brain_models \
+    import greet, welcome_user, check_condition, finish
 
 
 def body(user_name):

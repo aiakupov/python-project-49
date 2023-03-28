@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 import random
 import math
-from brain_games.scripts.brain_models import *
+import prompt
+from brain_games.scripts.brain_models \
+    import greet, welcome_user, check_condition, finish
 
 
 def body(user_name):
