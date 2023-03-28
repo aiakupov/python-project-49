@@ -4,7 +4,7 @@ from brain_games.scripts.brain_models import *
 
 
 def body(user_name):
-    print('Answer "yes" if the number is even, otherwise answer "no".')
+    print('What is the result of the expression?')
     counter_right_answer = 0
     while counter_right_answer < 3:
         ops = ['+', '-', '*']
